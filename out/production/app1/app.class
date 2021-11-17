@@ -1,0 +1,31 @@
+// IntelliJ API Decompiler stub source generated from a class file
+// Implementation of methods is not available
+
+public final class app public constructor() : javafx.application.Application {
+    public companion object {
+        @kotlin.jvm.JvmStatic public final fun main(args: kotlin.Array<kotlin.String>): kotlin.Unit { /* compiled code */ }
+    }
+
+    private final val default_path: kotlin.String /* compiled code */
+
+    private final val directorry_a: kotlin.String /* compiled code */
+
+    private final var prev_x: kotlin.Double /* compiled code */
+
+    private final var prev_y: kotlin.Double /* compiled code */
+
+    private final fun getLastDir(): kotlin.String { /* compiled code */ }
+
+    private final fun openImage(imgC: javafx.scene.canvas.Canvas, drawC: javafx.scene.canvas.Canvas, cutC: javafx.scene.canvas.Canvas, stage: javafx.stage.Stage): kotlin.Unit { /* compiled code */ }
+
+    private final fun refreshCanvas(c1: javafx.scene.canvas.Canvas, c2: javafx.scene.canvas.Canvas, c3: javafx.scene.canvas.Canvas, image: javafx.scene.image.Image?): kotlin.Unit { /* compiled code */ }
+
+    private final fun saveImage(isQuick: kotlin.Boolean, imgC: javafx.scene.canvas.Canvas, drawC: javafx.scene.canvas.Canvas, stage: javafx.stage.Stage): kotlin.Unit { /* compiled code */ }
+
+    private final fun setLastDir(file: java.io.File): kotlin.Unit { /* compiled code */ }
+
+    public open fun start(primaryStage: javafx.stage.Stage): kotlin.Unit { /* compiled code */ }
+
+    private final fun takeScreenshot(isHide: kotlin.Boolean, delay: kotlin.Long, imgC: javafx.scene.canvas.Canvas, drawC: javafx.scene.canvas.Canvas, cutC: javafx.scene.canvas.Canvas, stage: javafx.stage.Stage): kotlin.Unit { /* compiled code */ }
+}
+
